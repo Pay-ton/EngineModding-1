@@ -26,7 +26,7 @@ public class Player : MonoBehaviour
             RB2D.AddForceX(force, ForceMode2D.Force);
 
         }
-        Animator.SetFloat("moveSpeedX", Mathf.Abs(movespeedX));
+        Animator.SetFloat("MoveSpeedX", Mathf.Abs(movespeedX));
 
 
     }
