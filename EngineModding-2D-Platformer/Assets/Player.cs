@@ -28,6 +28,6 @@ public class Player : MonoBehaviour
         }
         Animator.SetFloat("MoveSpeedX", Mathf.Abs(movespeedX));
 
-
+        .
     }
 }
