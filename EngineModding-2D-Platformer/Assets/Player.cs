@@ -20,8 +20,9 @@ public class Player : MonoBehaviour
     {
         //Quick N Dirty movement from Week 1 lesson. 
         float moveX = Input.GetAxis("Horizontal");
-        if (Mathf.Abs(moveX) > 0.1f)
+        if (Mathf.Abs(moveX) > 0.0f)
         {
+            print("Hello");
             float force = moveX * movespeedX;
             RB2D.AddForceX(force, ForceMode2D.Force);
             Animator.SetFloat("MoveSpeedX", Mathf.Abs(movespeedX));
