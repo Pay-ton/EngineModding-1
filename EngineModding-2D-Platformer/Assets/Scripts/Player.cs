@@ -6,6 +6,7 @@ public class Player : MonoBehaviour
     public Rigidbody2D RB2D;
     public Animator Animator;
     public float movespeedX = 1f;
+    public bool hasKey = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
