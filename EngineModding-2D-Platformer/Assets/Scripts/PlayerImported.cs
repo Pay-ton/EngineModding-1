@@ -3,6 +3,10 @@ using UnityEngine;
 public class PlayerImported : MonoBehaviour
 {
     // VARIABLES
+    // For tracking if the player has a Key
+    public bool HasKey = false; 
+
+
     // We want to know about the player's RigidBody2D component to add forces to it
     public Rigidbody2D rb2d;
     //Get the player's collider / shape
