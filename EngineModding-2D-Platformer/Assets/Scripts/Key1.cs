@@ -10,6 +10,7 @@ public class Key1 : MonoBehaviour
         {
             collision.gameObject.GetComponent<PlayerImported>().HasKey = true;
 
+            this.gameObject.SetActive(false);
             door.SetActive(false);
             return;
         }
