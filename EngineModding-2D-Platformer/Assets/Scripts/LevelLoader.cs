@@ -16,5 +16,4 @@ public class LevelLoader : MonoBehaviour
     {
         LoadConditionTriggered();
     }
-
 }
